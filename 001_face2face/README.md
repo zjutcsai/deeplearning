@@ -64,8 +64,8 @@
 ```
 python main.py --mode train \
                --max-step 50000 \
-			   --save-step 2000 \
-			   --net-name Pix2Pix
+	       --save-step 2000 \
+	       --net-name Pix2Pix
 ```
 
 2. 测试自己的网络
