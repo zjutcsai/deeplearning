@@ -61,7 +61,7 @@
 
 训练最好使用GPU，否则训练速度会比较慢，训练前可以在main.py修改上述参数，也可以在控制台传入参数，运行方式为：
 
-```python
+```
 python main.py --mode train \
                --max-step 50000 \
 			   --save-step 2000 \
@@ -72,7 +72,7 @@ python main.py --mode train \
 
 当训练结束后，就可以测试自己的模型，测试需要传入一段测试视频，当然也可以传入图片(需要自己写对应的函数)，运行方式为：
 
-```python
+```
 python main.py --mode test \
                --test-video test_video.mp4
 ```
